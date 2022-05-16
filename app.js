@@ -39,8 +39,6 @@ $(document).ready(function(){
 
     // ========== TYPING ANIMATION ==========
     var typed = new Typed(".typing", {
-        // strings: [" " , "I LOVE YOU", "STAY STRONG",
-        // "I LOVE YOU", "THERE'S MORE TO COME"],
         strings: [" " , "am aspiring to become a Software Engineer", "am an Instruction Specialist",
         "was a former Intern Technical Staff", "was a former Intern IT Support "],
         typeSpeed: 100,
