@@ -41,7 +41,7 @@ $(document).ready(function(){
     var typed = new Typed(".typing", {
         // strings: [" " , "I LOVE YOU", "STAY STRONG",
         // "I LOVE YOU", "THERE'S MORE TO COME"],
-        strings: [" " , "am an aspiring Associate Software Engineer", "am an Instruction Specialist",
+        strings: [" " , "am aspiring to become a Software Engineer", "am an Instruction Specialist",
         "was a former Intern Technical Staff", "was a former Intern IT Support "],
         typeSpeed: 100,
         backSpeed: 60,
