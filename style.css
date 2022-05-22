@@ -424,7 +424,7 @@ section .subtitle::after {
 
 /*  ========== PROJECTS SECTION STYLES ========== */
 .projects .subtitle::after {
-    content: "What I've Done ?";
+    content: "What I Did ?";
 }
 .projects .carousel {
     border-radius: 5%;
