@@ -1,38 +1,35 @@
 <!DOCTYPE html>
-
-<!--Inspired by Coding Nepal-->
-<!--For Learning Purposes Only-->
-
+<!-- Inspired By CodingNepal -->
 <html lang="en">
 <head>
-    
+
+    DISABLE RIGHT CLICK AND CONTROL KEYS
     <script language=JavaScript>
 
-       var message = "function disabled";
-        
-        function rtclickcheck(keyp){ if (navigator.appName == "Netscape" && keyp.which == 3){ alert(message); return false; }
-        
-        if (navigator.appVersion.indexOf("MSIE") != -1 && event.button == 2) { alert(message); return false; } }
-        
-        document.onmousedown = rtclickcheck;
-        
+        var message = "function disabled";
+         
+         function rtclickcheck(keyp){ if (navigator.appName == "Netscape" && keyp.which == 3){ alert(message); return false; }
+         
+         if (navigator.appVersion.indexOf("MSIE") != -1 && event.button == 2) { alert(message); return false; } }
+         
+         document.onmousedown = rtclickcheck;
+         
+     </script>
+ 
+     <script>
+         /*function check(e)
+         {
+         alert(e.keyCode);
+         }*/
+         document.onkeydown = function(e) {
+                 if (e.ctrlKey && (e.keyCode === 67 || e.keyCode === 86 || e.keyCode === 85 || e.keyCode === 117)) {//Alt+c, Alt+v will also be disabled sadly.
+                     alert('not allowed');
+                 }
+                 return false;
+         };
     </script>
 
 
-    <script>
-        /*function check(e)
-        {
-        alert(e.keyCode);
-        }*/
-        document.onkeydown = function(e) {
-                if (e.ctrlKey && (e.keyCode === 67 || e.keyCode === 86 || e.keyCode === 85 || e.keyCode === 117)) {//Alt+c, Alt+v will also be disabled sadly.
-                    alert('not allowed');
-                }
-                return false;
-        };
-    </script>
-    
-    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personal Portfolio Website</title>
@@ -75,22 +72,20 @@
    <section class="home" id="home">
        <div class="max-width">
            <div class="home-content">
-            <div class="flip-wrap">
-            <div class="flip-img">
-                <div class="front">
-                    <img src="images/Profile-2.png" alt="">
+                <div class="flip-wrap">
+                    <div class="card front-face">
+                        <img src="images/Profile-2.png" alt="">
+                    </div>
+                    <div class="card back-face">
+                        <img src="images/me5.png" alt="">
+                    </div>
                 </div>
-                <div class="back">
-                    <img src="images/me5.png" alt="">
-                </div>
-            </div>
-            </div>
-            <div class="home-title">
-                <div class="line-1">Hello, My Name is</div>
-                <div class="line-2">Richmund Allorde</div>
-                <div class="line-3">I <span class="typing"> </span></div>
-            </div>
-        </div> 
+                <div class="home-title">
+                    <div class="line-1">Hello, My Name is</div>
+                    <div class="line-2">Richmund Allorde</div>
+                    <div class="line-3">I <span class="typing"> </span></div>
+                </div>    
+            </div> 
        </div>
    </section>
 
@@ -104,14 +99,46 @@
                     <img src="images/Profile-1.png" alt="">
                 </div>
                 <div class="column right">
-                    <div class="text">I'm <span class="typing-2"></span> and I'm aiming </div>
-                    <p>To secure a responsible career opportunity in an organization where my technical skills and versatility can make a great contribution to the success of the company.</p>
-                    <p>I've obtained my Bachelor's Degree in Electronics and Communications Engineering from the Rizal Technological University.
-                       My willingness to learn new knowledge and stuff can be my great asset.</p>
-                    <p>As for my work experience, I'm currently an Instructor at Fame Academy of Science and Technology (FAST). Subjects that I handled are Advanced Calculus,
-                        Analytic Geometry, Basic Calculus, Pre-calculus and General Physics. I also had my internships as Technical Support Engineer at Inspiro (Mandaluyong Site) 
-                        and as Technical Staff at PLDT (Mandaluyong Site).</p>
-                    <a href="file/Richmund Allorde Resume.pdf">Download Resume</a>
+                    <div class="text">I'm <span class="typing-2"></span> and </div>
+                    <p>I am driven to secure a responsible career opportunity where my technical skills and versatility can contribute significantly 
+                        to the success of an organization.</p>
+
+                    <p>I graduated from Rizal Technological University with a bachelor's degree in electronics and communications engineering,
+                         equipping me with a strong educational foundation. The strong foundation in mathematics and logical switching I gained 
+                         during my studies has enhanced my analytical thinking and critical reasoning abilities.</p>
+
+                    <p>I have a strong interest in working with data and gaining great insights from it. 
+                        I am a firm believer in data-driven decision-making since it empowers the outcome of those decisions. 
+                        My interest in artificial intelligence, machine learning, and data analytics has been motivated by this conviction. 
+                        I feel more productive and efficient when I am constantly developing my knowledge and skills in these topics. 
+                        In my leisure time, I actively seek to enhance my technical acumen by 
+                        watching YouTube videos, taking short online courses, and attending boot camps.</p>
+
+                    <!-- <p>To gain practical industry exposure, I interned as a Technical Support Engineer at Inspiro (Mandaluyong Site) 
+                        and as a Technical Staff at PLDT (Mandaluyong Site). These opportunities allowed me to apply my theoretical knowledge 
+                        in real-world settings, further refining my problem-solving skills and fostering a strong sense of teamwork.</p> -->
+
+                    <!-- <p>In terms of my professional experience, I had the privilege of serving as an Instructor at 
+                        Fame Academy of Science and Technology (FAST). During my tenure, I taught a diverse range of subjects, 
+                        including Advanced Calculus, Analytic Geometry, Basic Calculus, Pre-calculus, and General Physics. 
+                        This teaching experience has honed my ability to convey complex concepts effectively.</p>
+
+                    <p>Throughout my undergraduate years, I excelled in Mathematics and gained some expertise in FTTH Design. 
+                        As a National IECEP Quizzer and participant in various national-level competitions, 
+                        I further honed my skills and pushed myself to achieve excellence.</p> -->
+
+                    <p>On a personal note, I am an introverted individual with a keen interest in dogs and cats. 
+                        In my leisure time, I find joy in playing role-playing games and strumming the guitar. 
+                        Creating educational content, whether through videos or PowerPoint presentations, 
+                        is another fulfilling endeavor for me. It feels incredibly rewarding to share knowledge effectively, 
+                        as I believe that deeper understanding of concepts enables more compelling teaching. Moreover, 
+                        I aspire to develop my own Learning Management System to share my educational content more effectively.</p>
+
+                    <p>Thank you for visiting my portfolio. 
+                        I invite you to explore my work and reach out to me for potential collaborations or opportunities.</p>
+                        <div class="button">
+                            <a href="file/Richmund Allorde Resume.pdf">Download Resume</a>
+                        </div>
                 </div>
             </div>
         </div>
@@ -127,28 +154,79 @@
                     <div class="box">
                         <i class="fas fa-school"></i>
                         <div class="text">Instructor</div>
-                        <p>At FAST, I was able to perform Instructor duties,
-                            to provide electronic templates, to prepare course content for elective subjects
-                            and to coach Quizzer Team in academic competitions.</p>
+                        <p>At FAST, I was able to :
+                        <ul>
+                            <li>
+                                Coach quizzer teams
+                            </li>
+                            <li>
+                                Implement projects
+                            </li>
+                            <li>
+                                Perform data analysis
+                            </li>
+                            <li>
+                                Perform duties of an instructor
+                            </li>
+                            <li>
+                                Prepare course content
+                            </li>
+                            <li>
+                                Provide data-driven insights
+                            </li>
+                            <li>
+                                Provide electronic templates 
+                            </li>
+                        </ul>
+                        </p>
                     </div>
                 </div>
                 <div class="card">
                     <div class="box">
                         <i class="fas fa-hard-hat"></i>
                         <div class="text">Technical Staff</div>
-                        <p>At PLDT, I was assigned as MDF Area Personnel
-                            and was able to perform documentation tasks and outbound calls to customers regarding repair service tickets,
-                            and to process repair service tickets on the system.</p>
+                        <p>At PLDT, I was able to :
+                            <ul>
+                                <li>
+                                    Perform documentation tasks
+                                </li>
+                                <li>
+                                    Perform duties of an MDF Area Personnel
+                                </li>
+                                <li>
+                                    Perform outbound calls involving repair service tickets
+                                </li>
+                                <li>
+                                    Process repair service tickets in their database system
+                                </li>
+                            </p>
                     </div>
                 </div>
                 <div class="card">
                     <div class="box">
                         <i class="fas fa-headset"></i>
                         <div class="text">Technical Support Engineer</div>
-                        <p>At Inspiro, I was able to configure VLAN of some work stations,
-                            to provide Level 1 technical support across the company,
-                            to perform documentation tasks and to respond to service issues and requests.
-                             </p>
+                        <p>At Inspiro, I was able to :
+                            <ul>
+                                <li>
+                                    Configure VLANs and telephones
+                                </li>
+                                <li>
+                                    Install and configure hardware and software
+                                </li>
+                                <li>
+                                    Perform documentation tasks
+                                </li>
+                                <li>
+                                    Provide Level 1 Support
+                                </li>
+                                <li>
+                                    Respond to service tickets
+                                </li>
+                                <li>
+                                    Troubleshoot technical issues
+                                </li>
+                            </p>
                     </div>
                 </div>
                </div>
@@ -163,8 +241,64 @@
             <h2 class="subtitle">Skills and Qualifications</h2>
             <div class="skills-content">
                 <div class="column left">
-                    <p>As a recent graduate, I have basic knowledge in programming 
-                        (Arduino, C++, CSS, HTML, JavaScript, PHP, Python),
+                    <p>
+                        <h3>Software Related Skills (Basic)</h3>
+                        <ul>
+                            <li>
+                                Arduino
+                            </li>
+                            <li>
+                                C++
+                            </li>
+                            <li>
+                                CSS
+                            </li>
+                            <li>
+                                HTML
+                            </li>
+                            <li>
+                                JavaScript
+                            </li>
+                            <li>
+                                Python
+                            </li>
+                            <li>
+                                SQL
+                            </li> 
+                        </ul>
+                        <br>
+                        <h3>Other Skills</h3>
+                        <ul>
+                            <li>
+                                Adaptability
+                            </li>
+                            <li>
+                                Analytical
+                            </li>
+                            <li>
+                                AutoCAD
+                            </li>
+                            <li>
+                                Critical Thinking
+                            </li>
+                            <li>
+                                Data Entry
+                            </li>
+                            <li>
+                                MS Office (Excel, Powerpoint, Word)
+                            </li>
+                            <li>
+                                Organizational
+                            </li>
+                            <li>
+                                Problem-Solving
+                            </li>
+                            <li>
+                                Time Management
+                            </li>
+                        </ul>
+                        <!-- As a recent graduate, I have basic knowledge in programming 
+                        (Arduino, C++, CSS, HTML, JavaScript, PHP, Python, SQL),
                         intermediate skills in data encoding (MS Word, MS Powerpoint, MS Excel)
                         and basic skills in computer-aided drafting.</p>
                     <p>Being an engineering graduate, I always have the willingness to learn
@@ -177,28 +311,47 @@
                     <p>
                         In my undergraduate years, I was able to obtain good scholastic performance
                         by being knowledgeable in Mathematics and FTTH Design. I was also a
-                        National IECEP Quizzer. 
+                        National IECEP Quizzer.  -->
                     </p>
                 </div>     
                 <div class="column right">
                     <div class="block">
-                        <p><h2>Certificate in Software Development Basics</h2></p>                           
-                        <p>Trent Global College, Singapore</p>
-                    </div>      
-                    <div class="block">
-                        <p><h2>Bachelor of Science in
-                            Electronics and Communications Engineering</h2></p>
+                        <p><h3>BS ECE (Electronics and Communications Engineering)</h3></p>
                         <p>Rizal Technological University</p>
                     </div>
                     <div class="block">
-                        <p><h2>Certificate in Autodesk Certified User</h2></p>
+                        <p><h3>Business Intelligence: PowerBI Desktop Masterclass</h3></p>                           
+                        <p>DataSense Analytics</p>
+                    </div>      
+                    <div class="block">
+                        <p><h3>Certificate in Software Development Basics</h3></p>                           
+                        <p>Trent Global College, Singapore</p>
+                    </div>      
+                    <div class="block">
+                        <p><h3>Certificate in Autodesk Certified User</h3></p>
                         <p>Certiport</p>
-                        </div>
+                    </div>
+                    <div class="block">
+                        <p><h3>Class C Amateur Radio</h3></p>
+                        <p>NTC</p>
+                    </div>
+                    <div class="block">
+                        <p><h3>Computer Systems Servicing NC II</h3></p>
+                        <p>TESDA</p>
+                    </div>
+                    <div class="block">
+                        <p><h3>Electronic Products Assembly and Servicing NC II</h3></p>
+                        <p>TESDA</p>
+                    </div>
+                    <div class="block">
+                        <p><h3>Google Data Analytics</h3></p>                           
+                        <p>Professional Certificate, Coursera</p>
+                    </div>      
                 </div>
             </div>
         </div>
     </section>
-
+    
     <!-- ========== PROJECTS SECTION ========== -->
     <section class="projects" id="projects">
         <div class="max-width">
@@ -207,8 +360,21 @@
                 <div class="wrapper">
                     <div class="card back-face">
                         <img src="images/StudentQueries.png">
-                        <a href="https://studcrud23.000webhostapp.com/">Link to Student Queries</a>
-                        <a href="https://studcrud23.000webhostapp.com/admin">Link to Student Queries Admin Panel</a>
+                        <a href="https://studcrud23.000webhostapp.com/">Data Analytics Portfolio</a>
+                    </div>
+                    <div class="card front-face">
+                        <img src="images/StudentQueries.png">
+                        <div class="info">
+                            <div class="title">Data Analytics Portfolio</div>
+                            <p>Sample Dashboards and Case Study</p><br>
+                        </div>
+                    </div>
+                </div>
+                <div class="wrapper">
+                    <div class="card back-face">
+                        <img src="images/StudentQueries.png">
+                        <a href="https://studcrud23.000webhostapp.com/">Student Queries</a>
+                        <a href="https://studcrud23.000webhostapp.com/admin">Student Queries Admin Panel</a>
                     </div>
                     <div class="card front-face">
                         <img src="images/StudentQueries.png">
@@ -224,7 +390,7 @@
                 <div class="wrapper">
                     <div class="card back-face">
                         <img src="images/QuizApp.png">
-                        <a href="https://richmund23.github.io/QuizApp/">Link to QuizApp</a>
+                        <a href="https://richmund23.github.io/QuizApp/">QuizApp</a>
                     </div>
                     <div class="card front-face">
                         <img src="images/QuizApp.png">
@@ -237,8 +403,7 @@
                 <div class="wrapper">
                     <div class="card back-face">
                         <img src="images/StudentsDirectory.png">
-<!--                         <a href="https://managestudentsdirectory.web.app/">Link to Students Directory</a> -->
-                        <a href="https://richmund23.github.io/Resume">Link to Students Directory</a>
+                        <a href="https://managestudentsdirectory.web.app/">Students Directory</a>
                     </div>
                     <div class="card front-face">
                         <img src="images/StudentsDirectory.png">
@@ -251,7 +416,7 @@
                 <div class="wrapper">
                     <div class="card back-face">
                         <img src="images/Planner_template.png">
-                        <a href="https://drive.google.com/drive/folders/12UiQULv-QMdP4UzS56NGDsFd54x3OzbJ">Link to Google Drive</a>
+                        <a href="https://drive.google.com/drive/folders/12UiQULv-QMdP4UzS56NGDsFd54x3OzbJ">View Templates</a>
                     </div>
                     <div class="card front-face">
                         <img src="images/Planner_template_stud.png">
@@ -324,7 +489,7 @@
                 <div class="wrapper">
                     <div class="card back-face">
                         <img src="images/duino.png">
-                        <a href="https://drive.google.com/drive/folders/1Nb1h5Nw8_F9aMWg3o-JpIUk8y5v2nGJi">Link to Google Drive</a>
+                        <a href="https://drive.google.com/drive/folders/1Nb1h5Nw8_F9aMWg3o-JpIUk8y5v2nGJi">View</a>
                     </div>
                     <div class="card front-face">
                         <img src="images/duino.png">
@@ -337,15 +502,14 @@
                 <div class="wrapper">
                     <div class="card back-face">
                         <img src="images/matheux.png">
-                        <a href="https://drive.google.com/drive/folders/11qzWgvuJk3M-Cw3KmeOhYC4yCIG9fIBG">Link to Google Drive</a>
+                        <a href="https://drive.google.com/drive/folders/11qzWgvuJk3M-Cw3KmeOhYC4yCIG9fIBG">View</a>
                     </div>
                     <div class="card front-face">
                         <img src="images/matheux.png">
                         <div class="info">
                             <div class="title">Project Matheux</div>
                             <p>Sample Video Lectures for Analytic Geometry</p><br>
-                            <p>(c) Matheux 2020 - 2021</p>
-                            <p>(c) Matheux 2021 - 2022</p>
+                            <p>(c) Matheux 2020 - 2023</p>
                         </div>
                     </div>
                 </div>
@@ -388,17 +552,25 @@
                                 <div class="sub-title">https://richmund23.github.io/Resume</div>
                             </div>
                         </div>
+                        <div class="row">
+                            <i class="fab fa-github"></i>
+                            <div class="info">
+                                <div class="head">Linkedin Profile</div>
+                                <div class="sub-title"></div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <i class="fab fa-github"></i>
+                            <div class="info">
+                                <div class="head">Kaggle Notebook</div>
+                                <div class="sub-title"></div>
+                            </div>
+                        </div>
                     </div>
                 </div>
         </div>
-    </section>
-        
-    <!-- FOOTER SECTION -->
-<!--     <div>
-        <fn>Inspired by CodingNepal</fn>
-    </div> -->
+    </section> 
 
-    
     <!-- ========== MAIN SCRIPT JS ========== -->
     <script src="app.js"></script>
 </body>
