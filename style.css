@@ -294,7 +294,7 @@ section .subtitle::after {
     color: #3B7DD8;
 }
 .about .about-content .right p {
-    text-align: justify;
+    text-align: left;
     font-style: italic;
     margin-bottom: 1rem;
     font-size: 15px;
@@ -304,7 +304,7 @@ section .subtitle::after {
     height: 50px;
     width: 300px;
     position: relative;
-    left: 30%;
+    /* left: 20px; */
     background: #3B7DD8;
     color: #fff;
     font-size: 18px;
@@ -340,20 +340,26 @@ section .subtitle::after {
     content: "Previous Work";
 }
 .experience .experience-content .card {
-    height: 47vh;
+    height: 650px;
     width: calc(33% - 20px);
     background: #222;
     text-align: center;
     border-radius: 5%;
     padding: 50px 25px;
+    margin-bottom: 50px;
     cursor: pointer;
     transition: all 0.4s ease;
     opacity: 0.8;
+}
+.experience .experience-content .card .text{
+    padding-top: 20px;
 }
 .experience .experience-content .card p{
     text-align: justify;
     cursor: pointer;
     transition: all 0.4s ease;
+    padding-top: 20px;
+    padding-bottom: 10px;
 }
 .experience .experience-content .card ul {
     text-align: justify;
@@ -362,10 +368,12 @@ section .subtitle::after {
     transition: all 0.4s ease;
 }
 .experience .experience-content .card li {
-    text-align: justify;
+    text-align: left;
     border-radius: 5%;
     cursor: pointer;
     transition: all 0.4s ease;
+    padding-bottom: 10px;
+
 }
 .experience .experience-content .card:hover {
     background: #3B7DD8;
@@ -381,15 +389,16 @@ section .subtitle::after {
     transform: scale(1.05);
 }
 .experience .experience-content .card i {
-    font-size: 60px;
+    font-size: 70px;
     color: #3B7DD8;
     transition: color 0.3s ease;
+    padding-top: 30px;
 }
 .experience .experience-content .card:hover i {
     color: #EBB03F;
 }
 .experience .experience-content .card .text {
-    font-size: 22px;
+    font-size: 20px;
     font-weight: 500;
     margin: 30px 0 16px 0;
     color: #EBB03F;
@@ -471,10 +480,10 @@ section .subtitle::after {
     opacity: 0.9;
 }
 .wrapper {
-    /* height: 410px;
-    width: 330px; */
+    height: 410px;
+    width: 340px;
     height: 430px;
-    margin: 5px;
+    margin: 10px;
     position: relative;
     transform-style: preserve-3d;
     perspective: 1000px;
@@ -483,7 +492,7 @@ section .subtitle::after {
     position: absolute;
     height: 100%;
     width: 100%;
-    padding: 0px;
+    padding: 10px;
     background: #222;
     border-radius: 10px;
     transform: translateY(0deg);
@@ -493,6 +502,7 @@ section .subtitle::after {
     transition: transform 0.7s cubic-bezier(0.4,0.2,0.2,1);
     opacity: 0.8;
     cursor: pointer;
+    
 }
 .wrapper:hover > .front-face {
     transform: rotateY(-180deg);
@@ -510,7 +520,7 @@ section .subtitle::after {
     justify-content: space-evenly;
     flex-direction: column;
     transform: rotateY(180deg);
-    border:2px solid #EBB03F;
+    border: 5px solid #EBB03F;
 }
 .wrapper .back-face a {
     text-align: center;
@@ -531,7 +541,7 @@ section .subtitle::after {
     padding: 2px;
     border-radius: 40%;
     object-fit: fill;
-    border:1px solid #EBB03F;
+    border: 1px solid #EBB03F;
 }
 .wrapper .front-face .info {
     text-align: center;
@@ -570,9 +580,9 @@ section .subtitle::after {
     background: #EBB03F!important;
 }
 
-/*  ========== CONTACT SECTION STYLES ========== */
+/*  ========== LINKS SECTION STYLES ========== */
 .contact .subtitle::after {
-    content: "Reach Me";
+    content: "Collaborate with Me";
 }
 .contact .contact-content {
     display: flex;
@@ -671,10 +681,10 @@ section .subtitle::after {
     .about .about-content .right {
         flex: 100%;
     }
-    .experience .experience-content .card {
+    /* .experience .experience-content .card {
         width: calc(50% - 10px);
         margin-bottom: 20px;
-    }
+    } */
     .projects .carousel .card {
         height: 100%;
     }
