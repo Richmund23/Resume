@@ -39,8 +39,8 @@ $(document).ready(function(){
 
     // ========== TYPING ANIMATION ==========
     var typed = new Typed(".typing", {
-        strings: [" " , "am looking for an IT Career", "was an Instructor",
-        "was a former Intern Technical Staff", "was a former Intern Technical Support Engineer "],
+        strings: [" " , "am looking for an IT Career", "was a former Instructor",
+        "was a former Intern Technical Staff", "was a former Intern IT Support "],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
