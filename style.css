@@ -613,6 +613,12 @@ section .subtitle::after {
 .contact .contact-content .info .sub-subtitle {
     color: #333;
 }
+.contact .contact-content .info .head a + .space {
+    margin-left: 9px; /* Adjust the value as needed */
+}
+.contact .contact-content .info .head a + .space2 {
+    margin-left: 4px; /* Adjust the value as needed */
+}
 
 /*  ========== RESPONSIVE MEDIA ========== */
 @media (max-width: 1104px) {
