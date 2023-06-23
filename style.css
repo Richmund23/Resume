@@ -582,7 +582,7 @@ section .subtitle::after {
 
 /*  ========== LINKS SECTION STYLES ========== */
 .contact .subtitle::after {
-    content: "Collaborate with Me";
+    content: "Collaborate";
 }
 .contact .contact-content {
     display: flex;
@@ -752,7 +752,7 @@ section .subtitle::after {
     }
 }
 
-@media (max-width: 390px) {
+@media (max-width: 300px) {
     .home .home-content .line-2 {
         font-size: 50px;
     }
