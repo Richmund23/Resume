@@ -341,7 +341,7 @@ section .subtitle::after {
 }
 .experience .experience-content .card {
     height: 580px;
-    width: calc(25% - 15px);
+    width: calc(30% - 5px);
     background: #222;
     text-align: center;
     border-radius: 20px;
@@ -391,10 +391,10 @@ section .subtitle::after {
     transform: scale(1.05);
 }
 .experience .experience-content .card i {
-    font-size: 70px;
+    font-size: 80px;
     color: #3B7DD8;
     transition: color 0.3s ease;
-    padding-top: 30px;
+    padding-top: 10px;
 }
 .experience .experience-content .card:hover i {
     color: #EBB03F;
