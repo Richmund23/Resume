@@ -175,7 +175,7 @@ section .subtitle::after {
     background: url("images/HomeBlue.png") no-repeat center;
     height: 100vh;
     color: #fff;
-    min-height: 500px;
+    min-height: 400px;
     background-size: cover;
     background-attachment: fixed;
     font-family: 'Poppins', sans-serif;
@@ -340,12 +340,12 @@ section .subtitle::after {
     content: "Previous Work";
 }
 .experience .experience-content .card {
-    height: 520px;
+    height: 550px;
     width: calc(30% - 5px);
     background: #222;
     text-align: center;
     border-radius: 20px;
-    padding: 28px 23px;
+    padding: 30px 25px;
     margin-bottom: 50px;
     cursor: pointer;
     transition: all 0.4s ease;
@@ -359,7 +359,7 @@ section .subtitle::after {
     cursor: pointer;
     transition: all 0.4s ease;
     padding-top: 10px;
-    padding-bottom: 10px;
+    padding-bottom: 15px;
     font-size: 13px;
 }
 .experience .experience-content .card ul {
@@ -890,6 +890,7 @@ section .subtitle::after {
         line-height: 38px;
     }
 }
+
 
 
 
