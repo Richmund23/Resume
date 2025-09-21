@@ -340,7 +340,7 @@ section .subtitle::after {
     content: "Previous Work";
 }
 .experience .experience-content .card {
-    height: 540px;
+    height: 440px;
     width: calc(30% - 5px);
     background: #222;
     text-align: center;
@@ -478,11 +478,11 @@ section .subtitle::after {
     text-align: center;
     overflow: hidden;
     transition: all 0.4s ease;
-    height: 45vh;
+    height: 35vh;
     opacity: 0.9;
 }
 .wrapper {
-    height: 380px;
+    height: 300px;
     width: 310px;
     margin: 10px;
     position: relative;
@@ -890,5 +890,6 @@ section .subtitle::after {
         line-height: 38px;
     }
 }
+
 
 
