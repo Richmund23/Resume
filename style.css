@@ -478,7 +478,7 @@ section .subtitle::after {
     text-align: center;
     overflow: hidden;
     transition: all 0.4s ease;
-    height: 85vh;
+    height: 100vh;
     opacity: 0.9;
 }
 .wrapper {
@@ -891,4 +891,5 @@ section .subtitle::after {
         line-height: 38px;
     }
 }
+
 
