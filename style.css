@@ -482,7 +482,7 @@ section .subtitle::after {
     opacity: 0.9;
 }
 .wrapper {
-    height: 450px;
+    height: 480px;
     width: 310px;
     /* height: 430px; */
     margin: 10px;
@@ -891,6 +891,7 @@ section .subtitle::after {
         line-height: 38px;
     }
 }
+
 
 
 
