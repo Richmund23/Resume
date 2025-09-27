@@ -83,12 +83,12 @@ section .subtitle::after {
     position: fixed;
     width: 100%;
     z-index: 999;
-    padding: 28px 0;
+    padding: 30px 0;
     font-family: 'Ubuntu', sans-serif;
     transition: all 0.3s ease;
 }
 .navheader.sticky {
-    padding: 13px 0;
+    padding: 15px 0;
     background: #222;
     opacity: 0.8;
 }
@@ -99,7 +99,7 @@ section .subtitle::after {
 }
 .navheader .alias a {
     color: #fff;
-    font-size: 30px;
+    font-size: 35px;
     font-weight: 600;
 }
 .navheader .alias a span {
@@ -175,7 +175,7 @@ section .subtitle::after {
     background: url("images/HomeBlue.png") no-repeat center;
     height: 100vh;
     color: #fff;
-    min-height: 400px;
+    min-height: 500px;
     background-size: cover;
     background-attachment: fixed;
     font-family: 'Poppins', sans-serif;
@@ -340,12 +340,12 @@ section .subtitle::after {
     content: "Previous Work";
 }
 .experience .experience-content .card {
-    height: 550px;
+    height: 580px;
     width: calc(30% - 5px);
     background: #222;
     text-align: center;
     border-radius: 20px;
-    padding: 30px 25px;
+    padding: 40px 25px;
     margin-bottom: 50px;
     cursor: pointer;
     transition: all 0.4s ease;
@@ -359,8 +359,8 @@ section .subtitle::after {
     cursor: pointer;
     transition: all 0.4s ease;
     padding-top: 10px;
-    padding-bottom: 15px;
-    font-size: 12px;
+    padding-bottom: 10px;
+    font-size: 13px;
 }
 .experience .experience-content .card ul {
     text-align: justify;
@@ -373,8 +373,8 @@ section .subtitle::after {
     border-radius: 10px;
     cursor: pointer;
     transition: all 0.4s ease;
-    padding-bottom: 20px;
-    font-size: 12px;
+    padding-bottom: 10px;
+    font-size: 13px;
 
 }
 .experience .experience-content .card:hover {
@@ -391,7 +391,7 @@ section .subtitle::after {
     transform: scale(1.05);
 }
 .experience .experience-content .card i {
-    font-size: 70px;
+    font-size: 80px;
     color: #3B7DD8;
     transition: color 0.3s ease;
     padding-top: 10px;
@@ -400,13 +400,13 @@ section .subtitle::after {
     color: #EBB03F;
 }
 .experience .experience-content .card .text {
-    font-size: 12px;
+    font-size: 16px;
     font-weight: 500;
     margin: 30px 0 16px 0;
     color: #EBB03F;
 }
 .experience .experience-content .card .box p {
-    font-size: 12px;
+    font-size: 17px;
     font-weight: 400;
     margin: 30px 0 7px 0;
 }
@@ -478,12 +478,13 @@ section .subtitle::after {
     text-align: center;
     overflow: hidden;
     transition: all 0.4s ease;
-    height: 70vh;
+    height: 65vh;
     opacity: 0.9;
 }
 .wrapper {
-    height: 520px;
+    height: 450px;
     width: 310px;
+    /* height: 430px; */
     margin: 10px;
     position: relative;
     transform-style: preserve-3d;
@@ -491,7 +492,7 @@ section .subtitle::after {
 }
 .wrapper .card {
     position: absolute;
-    height: 70%;
+    height: 100%;
     width: 100%;
     padding: 10px;
     background: #222;
@@ -510,7 +511,7 @@ section .subtitle::after {
     box-shadow: 5px 10px 10px 5px rgba(247, 211, 94, 0.7);
 }
 .wrapper .card img {
-    height: 70%;
+    height: 100%;
     width: 100%;
     object-fit: fill;
     border-radius: 5px;
@@ -633,21 +634,21 @@ section .subtitle::after {
         text-align: center;
         overflow: hidden;
         transition: all 0.4s ease;
-        height: 70%;
+        height: 100%;
         width: 100%;
         opacity: 0.9;
     }
     .projects .carousel .card {
-        height: 70%;
+        height: 100%;
         width: 100%;
     }
     .projects .wrapper {
         width: 100%;
-        height: 70vh;
+        height: 100vh;
     }
     .projects .wrapper .back-face {
         width: 100%;
-        height: 70vh;
+        height: 100vh;
     }
 }
 
@@ -661,21 +662,21 @@ section .subtitle::after {
         text-align: center;
         overflow: hidden;
         transition: all 0.4s ease;
-        height: 70%;
-        width: 90%;
+        height: 100%;
+        width: 100%;
         opacity: 0.9;
     }
     .projects .carousel .card {
-        height: 70%;
-        width: 90%;
+        height: 100%;
+        width: 100%;
     }
     .projects .wrapper {
-        width: 90%;
-        height: 70vh;
+        width: 100%;
+        height: 100vh;
     }
     .projects .wrapper .back-face {
-        width: 90%;
-        height: 70vh;
+        width: 100%;
+        height: 100vh;
     }
 }
 @media (max-width: 947px) {
@@ -742,21 +743,21 @@ section .subtitle::after {
         text-align: center;
         overflow: hidden;
         transition: all 0.4s ease;
-        height: 70%;
-        width: 90%;
+        height: 100%;
+        width: 100%;
         opacity: 0.9;
     }
     .projects .carousel .card {
-        height: 70%;
-        width: 90%;
+        height: 100%;
+        width: 100%;
     }
     .projects .wrapper {
-        width: 90%;
-        height: 70vh;
+        width: 100%;
+        height: 100vh;
     }
     .projects .wrapper .back-face {
-        width: 90%;
-        height: 70vh;
+        width: 100%;
+        height: 100vh;
     }
     .skills .skills-content .column,
     .contact .contact-content .column {
@@ -787,21 +788,21 @@ section .subtitle::after {
         text-align: center;
         overflow: hidden;
         transition: all 0.4s ease;
-        height: 70%;
-        width: 90%;
+        height: 100%;
+        width: 100%;
         opacity: 0.9;
     }
     .projects .carousel .card {
-        height: 70%;
-        width: 90%;
+        height: 100%;
+        width: 100%;
     }
     .projects .wrapper {
-        width: 90%;
-        height: 70vh;
+        width: 100%;
+        height: 100vh;
     }
     .projects .wrapper .back-face {
-        width: 90%;
-        height: 70vh;
+        width: 100%;
+        height: 100vh;
     }
 }
 
@@ -822,21 +823,21 @@ section .subtitle::after {
         text-align: center;
         overflow: hidden;
         transition: all 0.4s ease;
-        height: 80%;
-        width: 90%;
+        height: 100%;
+        width: 100%;
         opacity: 0.9;
     }
     .projects .carousel .card {
-        height: 70%;
-        width: 90%;
+        height: 100%;
+        width: 100%;
     }
     .projects .wrapper {
-        width: 90%;
-        height: 70vh;
+        width: 100%;
+        height: 100vh;
     }
     .projects .wrapper .back-face {
-        width: 90%;
-        height: 70vh;
+        width: 100%;
+        height: 100vh;
     }
     .scroll-up-btn {
         right: 15px;
@@ -865,21 +866,21 @@ section .subtitle::after {
         text-align: center;
         overflow: hidden;
         transition: all 0.4s ease;
-        height: 70%;
-        width: 90%;
+        height: 100%;
+        width: 100%;
         opacity: 0.9;
     }
     .projects .carousel .card {
-        height: 70%;
-        width: 90%;
+        height: 100%;
+        width: 100%;
     }
     .projects .wrapper {
-        width: 70%;
-        height: 90vh;
+        width: 100%;
+        height: 100vh;
     }
     .projects .wrapper .back-face {
-        width: 90%;
-        height: 70vh;
+        width: 100%;
+        height: 100vh;
     }
     .scroll-up-btn {
         right: 15px;
@@ -890,16 +891,3 @@ section .subtitle::after {
         line-height: 38px;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
