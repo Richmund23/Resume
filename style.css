@@ -906,27 +906,41 @@ section .subtitle::after {
     .skills .skills-content .left .text {
         font-size: 11px;
     }
+    .projects .subtitle {
+        font-size: 14px;         /* ↓ smaller text for mobile */
+        margin-top: 8px;
+        text-align: center;
+    }
+
+    .projects .subtitle::after {
+        content: "What I Did ?";
+        display: block;         /* ✅ forces a new line below subtitle text */
+        font-size: 13px;        /* scale down the pseudo element too */
+        margin-top: 4px;
+        color: #EBB03F;
+    }
+}
     .projects .carousel {
         border-radius: 5%;
         padding: 0px 0px;
         text-align: center;
         overflow: hidden;
         transition: all 0.4s ease;
-        height: 340px;
-        width: 90vw;
+        height: auto;
+        width: 100%;
         opacity: 0.9;
     }
     .projects .carousel .card {
-        height: 100px;
-        width: 60px;
+        height: auto;
+        width: 90vw;
     }
     .projects .wrapper {
-        width: 100px;
-        height: 60px;
+        width: 90vw;
+        height: auto;
     }
     .projects .wrapper .back-face {
-        width: 100px;
-        height: 60px;
+        width: 90vw;
+        height: auto;
     }
     .scroll-up-btn {
         right: 15px;
@@ -980,6 +994,7 @@ section .subtitle::after {
         line-height: 38px;
     }
 }
+
 
 
 
