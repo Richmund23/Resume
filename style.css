@@ -695,6 +695,35 @@ section .subtitle::after {
     }
 }
 @media (max-width: 947px) {
+        section .subtitle {
+        position: relative;
+        text-align: center;
+        font-size: 30px;
+        font-weight: 500;
+        margin-bottom: 50px;
+        padding-bottom: 15px;
+        font-family: 'Poppins', sans-serif;
+    }
+    section .subtitle::before {
+        content: "";
+        position: absolute;
+        bottom: 0px;
+        left: 50%;
+        width: 180px;
+        height: 3px;
+        background: #111;
+        transform: translateX(-50%);
+    }
+    section .subtitle::after {
+        position: absolute;
+        bottom: -8px;
+        left: 50%;
+        font-size: 13px;
+        color: #3B7DD8;
+        padding: 0 5px;
+        background: #fff;
+        transform: translateX(-50%);
+    }
     .links-btn{
         display: block;
         z-index: 999;
@@ -922,6 +951,7 @@ section .subtitle::after {
         line-height: 38px;
     }
 }
+
 
 
 
