@@ -340,7 +340,7 @@ section .subtitle::after {
     content: "Previous Work";
 }
 .experience .experience-content .card {
-    height: 580px;
+    height: 590px;
     width: calc(30% - 5px);
     background: #222;
     text-align: center;
@@ -840,7 +840,7 @@ section .subtitle::after {
         position: absolute;
         bottom: -8px;
         left: 50%;
-        font-size: 17px;
+        font-size: 16px;
         color: #3B7DD8;
         padding: 0 5px;
         background: #fff;
@@ -857,16 +857,16 @@ section .subtitle::after {
         opacity: 0.9;
     }
     .projects .carousel .card {
-        height: 460px;
+        height: 500px;
         width: 95%;
     }
     .projects .wrapper {
         width: 95%;
-        height: 460px;
+        height: 500px;
     }
     .projects .wrapper .back-face {
         width: 95%;
-        height: 460px;
+        height: 500px;
     }
     .scroll-up-btn {
         right: 15px;
