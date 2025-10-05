@@ -789,7 +789,7 @@ section .subtitle::after {
         overflow: hidden;
         transition: all 0.4s ease;
         height: auto;
-        width: 1000%;
+        width: 100%;
         opacity: 0.9;
     }
     .projects .carousel .card {
@@ -891,6 +891,7 @@ section .subtitle::after {
         line-height: 38px;
     }
 }
+
 
 
 
