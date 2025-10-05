@@ -917,7 +917,6 @@ section .subtitle::after {
         display: block;         /* ✅ forces a new line below subtitle text */
         font-size: 13px;        /* scale down the pseudo element too */
         margin-top: 4px;
-        color: #EBB03F;
     }
 }
     .projects .carousel {
@@ -933,16 +932,16 @@ section .subtitle::after {
     }
     .projects .carousel .card {
         height: auto;
-        width: 90vw;
+        width: 65vw;
         aspect-ratio: 9 / 16;
     }
     .projects .wrapper {
-        width: 90vw;
+        width: 65vw;
         height: auto;
         aspect-ratio: 9 / 16;
     }
     .projects .wrapper .back-face {
-        width: 90vw;
+        width: 65vw;
         height: auto;
         aspect-ratio: 9 / 16;
     }
@@ -1002,6 +1001,7 @@ section .subtitle::after {
         line-height: 38px;
     }
 }
+
 
 
 
