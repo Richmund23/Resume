@@ -929,18 +929,22 @@ section .subtitle::after {
         height: auto;
         width: 100%;
         opacity: 0.9;
+        aspect-ratio: 9 / 16;
     }
     .projects .carousel .card {
         height: auto;
         width: 90vw;
+        aspect-ratio: 9 / 16;
     }
     .projects .wrapper {
         width: 90vw;
         height: auto;
+        aspect-ratio: 9 / 16;
     }
     .projects .wrapper .back-face {
         width: 90vw;
         height: auto;
+        aspect-ratio: 9 / 16;
     }
     .scroll-up-btn {
         right: 15px;
@@ -972,18 +976,22 @@ section .subtitle::after {
         height: 90%;
         width: 100%;
         opacity: 0.9;
+        aspect-ratio: 9 / 16;
     }
     .projects .carousel .card {
         height: 90%;
         width: 100%;
+        aspect-ratio: 9 / 16;
     }
     .projects .wrapper {
         width: 100%;
         height: 90vh;
+        aspect-ratio: 9 / 16;
     }
     .projects .wrapper .back-face {
         width: 100%;
         height: 90vh;
+        aspect-ratio: 9 / 16;
     }
     .scroll-up-btn {
         right: 15px;
@@ -994,6 +1002,7 @@ section .subtitle::after {
         line-height: 38px;
     }
 }
+
 
 
 
