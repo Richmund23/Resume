@@ -482,7 +482,7 @@ section .subtitle::after {
     opacity: 0.9;
 }
 .wrapper {
-    height: 560px;
+    height: 480px;
     width: 310px;
     /* height: 430px; */
     margin: 10px;
@@ -656,74 +656,30 @@ section .subtitle::after {
     .max-width{
         padding: 0 50px;
     }
-    .max-width{
-        padding: auto;
-    }
-    .home .home-content .line-2 {
-        font-size: 60px;
-    }
-    .home .home-content .line-3 {
-        font-size: 32px;
-    }
-    .home .home-content a {
-        font-size: 20px;
-    }
-    .experience .experience-content .card {
-        width: 100%;
-    }
     .projects .carousel {
         border-radius: 5%;
         padding: 0px 0px;
         text-align: center;
         overflow: hidden;
         transition: all 0.4s ease;
-        height: auto;
+        height: 100%;
         width: 100%;
         opacity: 0.9;
     }
     .projects .carousel .card {
-        height: 460px;
+        height: 100%;
         width: 100%;
     }
     .projects .wrapper {
         width: 100%;
-        height: 460px;
+        height: 100vh;
     }
     .projects .wrapper .back-face {
         width: 100%;
-        height: 460px;
+        height: 100vh;
     }
 }
 @media (max-width: 947px) {
-    section .subtitle {
-        position: relative;
-        text-align: center;
-        font-size: 30px;
-        font-weight: 500;
-        margin-bottom: 50px;
-        padding-bottom: 15px;
-        font-family: 'Poppins', sans-serif;
-    }
-    section .subtitle::before {
-        content: "";
-        position: absolute;
-        bottom: 0px;
-        left: 50%;
-        width: 180px;
-        height: 3px;
-        background: #111;
-        transform: translateX(-50%);
-    }
-    section .subtitle::after {
-        position: absolute;
-        bottom: -8px;
-        left: 50%;
-        font-size: 13px;
-        color: #3B7DD8;
-        padding: 0 5px;
-        background: #fff;
-        transform: translateX(-50%);
-    }
     .links-btn{
         display: block;
         z-index: 999;
@@ -781,44 +737,28 @@ section .subtitle::after {
         width: calc(50% - 10px);
         margin-bottom: 20px;
     } */
-    .max-width{
-        padding: auto;
-    }
-    .home .home-content .line-2 {
-        font-size: 60px;
-    }
-    .home .home-content .line-3 {
-        font-size: 32px;
-    }
-    .home .home-content a {
-        font-size: 20px;
-    }
-    .experience .experience-content .card {
-        width: 100%;
-    }
     .projects .carousel {
         border-radius: 5%;
         padding: 0px 0px;
         text-align: center;
         overflow: hidden;
         transition: all 0.4s ease;
-        height: auto;
+        height: 100%;
         width: 100%;
         opacity: 0.9;
     }
     .projects .carousel .card {
-        height: 460px;
+        height: 100%;
         width: 100%;
     }
     .projects .wrapper {
         width: 100%;
-        height: 460px;
+        height: 100vh;
     }
     .projects .wrapper .back-face {
         width: 100%;
-        height: 460px;
+        height: 100vh;
     }
-}
     .skills .skills-content .column,
     .contact .contact-content .column {
         width: 100%;
@@ -827,35 +767,6 @@ section .subtitle::after {
 }
 
 @media (max-width: 900px) {
-    section .subtitle {
-        position: relative;
-        text-align: center;
-        font-size: 40px;
-        font-weight: 500;
-        margin-bottom: 60px;
-        padding-bottom: 20px;
-        font-family: 'Poppins', sans-serif;
-    }
-    section .subtitle::before {
-        content: "";
-        position: absolute;
-        bottom: 0px;
-        left: 50%;
-        width: 180px;
-        height: 3px;
-        background: #111;
-        transform: translateX(-50%);
-    }
-    section .subtitle::after {
-        position: absolute;
-        bottom: -8px;
-        left: 50%;
-        font-size: 20px;
-        color: #3B7DD8;
-        padding: 0 5px;
-        background: #fff;
-        transform: translateX(-50%);
-    }
     .max-width{
         padding: auto;
     }
@@ -897,67 +808,7 @@ section .subtitle::after {
 
 @media (max-width: 500px) {
     .home .home-content .line-2 {
-        font-size: 25px;
-    }
-    .home .home-content .line-3 {
-        font-size: 22px;
-    }
-    .about .about-content .right .text,
-    .skills .skills-content .left .text {
-        font-size: 11px;
-    }
-    .projects .subtitle {
-        font-size: 14px;         /* ↓ smaller text for mobile */
-        margin-top: 8px;
-        text-align: center;
-    }
-
-    .projects .subtitle::after {
-        content: "What I Did ?";
-        display: block;         /* ✅ forces a new line below subtitle text */
-        font-size: 13px;        /* scale down the pseudo element too */
-        margin-top: 4px;
-    }
-}
-    .projects .carousel {
-        border-radius: 5%;
-        padding: 0px 0px;
-        text-align: center;
-        overflow: hidden;
-        transition: all 0.4s ease;
-        height: auto;
-        width: 100%;
-        opacity: 0.9;
-        aspect-ratio: 9 / 16;
-    }
-    .projects .carousel .card {
-        height: auto;
-        width: 65vw;
-        aspect-ratio: 9 / 16;
-    }
-    .projects .wrapper {
-        width: 65vw;
-        height: auto;
-        aspect-ratio: 9 / 16;
-    }
-    .projects .wrapper .back-face {
-        width: 65vw;
-        height: auto;
-        aspect-ratio: 9 / 16;
-    }
-    .scroll-up-btn {
-        right: 15px;
-        bottom: 15px;
-        height: 38px;
-        width: 35px;
-        font-size: 21px;
-        line-height: 38px;
-    }
-}
-
-@media (max-width: 300px) {
-    .home .home-content .line-2 {
-        font-size: 30px;
+        font-size: 50px;
     }
     .home .home-content .line-3 {
         font-size: 27px;
@@ -972,25 +823,21 @@ section .subtitle::after {
         text-align: center;
         overflow: hidden;
         transition: all 0.4s ease;
-        height: 90%;
+        height: 100%;
         width: 100%;
         opacity: 0.9;
-        aspect-ratio: 9 / 16;
     }
     .projects .carousel .card {
-        height: 90%;
+        height: 100%;
         width: 100%;
-        aspect-ratio: 9 / 16;
     }
     .projects .wrapper {
         width: 100%;
-        height: 90vh;
-        aspect-ratio: 9 / 16;
+        height: 100vh;
     }
     .projects .wrapper .back-face {
         width: 100%;
-        height: 90vh;
-        aspect-ratio: 9 / 16;
+        height: 100vh;
     }
     .scroll-up-btn {
         right: 15px;
@@ -1002,21 +849,48 @@ section .subtitle::after {
     }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+@media (max-width: 300px) {
+    .home .home-content .line-2 {
+        font-size: 50px;
+    }
+    .home .home-content .line-3 {
+        font-size: 27px;
+    }
+    .about .about-content .right .text,
+    .skills .skills-content .left .text {
+        font-size: 15px;
+    }
+    .projects .carousel {
+        border-radius: 5%;
+        padding: 0px 0px;
+        text-align: center;
+        overflow: hidden;
+        transition: all 0.4s ease;
+        height: 100%;
+        width: 100%;
+        opacity: 0.9;
+    }
+    .projects .carousel .card {
+        height: 100%;
+        width: 100%;
+    }
+    .projects .wrapper {
+        width: 100%;
+        height: 100vh;
+    }
+    .projects .wrapper .back-face {
+        width: 100%;
+        height: 100vh;
+    }
+    .scroll-up-btn {
+        right: 15px;
+        bottom: 15px;
+        height: 38px;
+        width: 35px;
+        font-size: 23px;
+        line-height: 38px;
+    }
+}
 
 
 
